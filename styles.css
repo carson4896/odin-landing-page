@@ -1,0 +1,203 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+    .header-info {
+        width:1200px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+        .header-logo {
+            color:#F9FAF8;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-links {
+            display: flex;
+            color: #E5E7EB;
+            justify-content: flex-end;
+            gap: 2em;
+        }
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+    .intro-info {
+        width: 1200px;
+        display: flex;
+        margin: 6em;
+    }
+
+        .intro-text {
+            margin-right:4em;
+        }
+
+            .intro-title {
+                font-size: 48px;
+                font-weight: bolder;
+                color: #F9FAF8;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .intro-subtext {
+                font-size: 18px;
+                color: #E5E7EB;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .intro-signup {
+                background-color: #3882F6;
+                color: #F9FAF8;
+                font-weight: bold;
+                display: flex;
+                flex-wrap: wrap;
+                width: fit-content;
+                padding: 0.5em 1.5em;
+                border-radius: 7px;
+                margin-top:2em;
+            }
+
+        .intro-image {
+            color: #F9FAF8;
+            background-color: grey;
+            text-align: center;
+            padding:5em 12em;
+        }
+
+.information {
+    display:flex;
+    justify-content: center;
+}
+
+    .information-info {
+        width: 1200px;
+    }
+
+        .information-title {
+            font-size: 36px;
+            font-weight: bolder;
+            color: #1F2937;
+            text-align: center;
+            margin: 1.5em;
+        }
+
+        .information-squares {
+            display: flex;
+            justify-content: center;
+            gap: 52px;
+            margin-bottom: 6em;
+        }
+
+            .square {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                max-width: 200px;
+            }
+
+            .image {
+                border: solid #3882F6;
+                border-radius: 15px;
+                padding: 4em;
+                margin-bottom: 1em;
+            }
+
+            .text {
+                text-align: center;
+            }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+    .quote-info {
+        width: 815px;
+        margin: 6em 0;
+    }
+
+        .quote-text{
+            font-size: 36px;
+            color: #1F2937;
+            font-style: italic; /*Look up how to do light italic*/
+            font-weight: 100;
+        }
+
+        .quote-person{
+            display: flex;
+            justify-content: flex-end;
+            font-weight: bold;
+            margin-top: -15px;
+        }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .action-blue{
+        background-color: #3882F6;
+        border-radius: 5px;
+        padding: 2em 8em;
+        display: flex;
+        margin: 8em;
+        width: 900px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .action-text {
+            color: #F9FAF8;
+            font-weight: bold;
+        }
+
+            .action-subtext{
+                color: #E5E7EB;
+            }
+
+        .action-signup {
+            background-color: #3882F6;
+            color: #F9FAF8;
+            font-weight: bold;
+            width: fit-content;
+            padding: 0.5em 1.5em;
+            border-radius: 7px;
+            border: solid #F9FAF8;
+        }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+    .footer-text {
+        color: #F9FAF8;
+        padding: 2em;
+    }
