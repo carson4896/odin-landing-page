@@ -16,13 +16,8 @@
 }
 
 /*-----Classes-----*/
-.page {
-    /* Box Model */
-    display: flex;
-    flex-direction: column;
-}
- 
-.header {
+.header,
+.intro {
     /* Box Model */
     display: flex;
     justify-content: center;
@@ -31,6 +26,7 @@
     background-color: #1F2937;
 }
 
+    /*-----Header Boxes-----*/
     .header-info {
         /* Box Model */
         align-items: center;
@@ -57,15 +53,7 @@
             color: #E5E7EB;
         }
 
-.intro {
-    /* Box Model */
-    display: flex;
-    justify-content: center;
-
-    /* Visual Decorations */
-    background-color: #1F2937;
-}
-
+    /*-----Intro Boxes-----*/
     .intro-info {
         /* Box Model */
         display: flex;
