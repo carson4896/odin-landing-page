@@ -98,6 +98,7 @@
                 /* Visual Decorations */
                 background-color: #3882F6;
                 border-radius: 7px;
+                cursor: pointer;
 
                 /* Typography */
                 color: #F9FAF8;
@@ -105,12 +106,6 @@
             }
 
         .intro-image {
-            /* Box Model */
-            padding:5em 12em;
-
-            /* Visual Decorations */
-            background-color: grey;
-
             /* Typography */
             color: #F9FAF8;
             text-align: center;
@@ -246,6 +241,7 @@
             background-color: #3882F6;
             border: solid #F9FAF8;
             border-radius: 7px;
+            cursor: pointer;
 
             /* Typography */
             color: #F9FAF8;
